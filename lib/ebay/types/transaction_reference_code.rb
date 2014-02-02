@@ -4,6 +4,7 @@ module Ebay # :nodoc:
       extend Enumerable
       extend Enumeration
       ExternalTransactionID = 'ExternalTransactionID'
+      MandateReferenceNumber = 'MandateReferenceNumber'
     end
   end
 end

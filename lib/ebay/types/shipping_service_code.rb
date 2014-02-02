@@ -713,6 +713,7 @@ module Ebay # :nodoc:
       SameDayShipping = 'SameDayShipping'
       UKRoyalMailNextDay = 'UK_RoyalMailNextDay'
       UKRoyalMailTracked = 'UK_RoyalMailTracked'
+      EBayNowImmediateDelivery = 'eBayNowImmediateDelivery'
     end
   end
 end

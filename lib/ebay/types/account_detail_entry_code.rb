@@ -285,6 +285,8 @@ module Ebay # :nodoc:
       CreditAPACFedExShippingLabel = 'CreditAPACFedExShippingLabel'
       FeeAPACTNTShippingLabel = 'FeeAPACTNTShippingLabel'
       CreditAPACTNTShippingLabel = 'CreditAPACTNTShippingLabel'
+      FeeEBPReimbursement = 'FeeEBPReimbursement'
+      CreditEBPReimbursement = 'CreditEBPReimbursement'
     end
   end
 end

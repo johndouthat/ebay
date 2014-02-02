@@ -11,6 +11,7 @@ module Ebay # :nodoc:
     #  money_node :payment_amount, 'PaymentAmount', :optional => true
     #  object_node :reference_id, 'ReferenceID', :class => TransactionReference, :optional => true
     #  money_node :fee_or_credit_amount, 'FeeOrCreditAmount', :optional => true
+    #  array_node :payment_reference_ids, 'PaymentReferenceID', :class => TransactionReference, :default_value => []
     class PaymentTransaction
       include XML::Mapping
       include Initializer
@@ -22,6 +23,7 @@ module Ebay # :nodoc:
       money_node :payment_amount, 'PaymentAmount', :optional => true
       object_node :reference_id, 'ReferenceID', :class => TransactionReference, :optional => true
       money_node :fee_or_credit_amount, 'FeeOrCreditAmount', :optional => true
+      array_node :payment_reference_ids, 'PaymentReferenceID', :class => TransactionReference, :default_value => []
     end
   end
 end

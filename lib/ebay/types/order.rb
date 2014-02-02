@@ -50,6 +50,7 @@ module Ebay # :nodoc:
     #  object_node :pickup_method_selected, 'PickupMethodSelected', :class => PickupMethodSelected, :optional => true
     #  text_node :seller_user_id, 'SellerUserID', :optional => true
     #  text_node :seller_eias_token, 'SellerEIASToken', :optional => true
+    #  text_node :cancel_reason, 'CancelReason', :optional => true
     class Order
       include XML::Mapping
       include Initializer
@@ -90,6 +91,7 @@ module Ebay # :nodoc:
       object_node :pickup_method_selected, 'PickupMethodSelected', :class => PickupMethodSelected, :optional => true
       text_node :seller_user_id, 'SellerUserID', :optional => true
       text_node :seller_eias_token, 'SellerEIASToken', :optional => true
+      text_node :cancel_reason, 'CancelReason', :optional => true
     end
   end
 end
